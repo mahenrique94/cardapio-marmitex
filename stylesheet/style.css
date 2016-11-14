@@ -1,0 +1,140 @@
+/****
+** BAND
+****/
+.o-band {
+    background: #CC0000;    
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-transform: uppercase;
+}
+.o-band__brand {
+    color: #F2F2F2;
+}
+
+/****
+** MENU
+****/
+.c-menu {
+    float: left;
+    width: 100%;
+}
+.c-menu__item {
+    border-bottom: 1px dashed #CC0000;
+    float: left;
+    padding: .5rem 2rem;
+    width: 100%;
+}
+.c-menu__item:last-child {
+    border-bottom: none;
+}
+.c-menu__picture {
+    float: left;
+    margin-right: .7rem;
+    width: 150px;
+}
+.c-menu__title {
+    color: #B30000;
+    display: block;
+    letter-spacing: 2px;
+    margin-top: 1.7rem;
+    text-transform: uppercase;
+}
+.c-menu__describe {
+    color: #595959;
+    float: left;
+    font-weight: 100;     
+}
+.c-menu__price {
+    color: #B30000;
+    float: right;
+    font-size: 1.5rem;
+}
+.c-menu__price--dollar, .c-menu__price--currency {
+    font-size: .75rem;
+    font-weight: 100;
+}
+
+/****
+** INFO
+****/
+.o-info {
+    background: #CC0000;
+    clear: left;
+    display: block;
+    padding: 2rem 0;
+}
+.o-info__box {
+    border: 1px dashed #FFFFFF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 100;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: justify;
+    width: 500px;
+}
+.o-info__title {
+    margin-bottom: .5rem;
+}
+.o-info__box p {
+    display: list-item;
+    line-height: 1.5;
+}
+
+/****
+** LIST
+****/
+.o-list {
+    align-items: center;
+    display: flex;
+    justify-content: center;   
+}
+.o-list li {
+    text-align: center;
+    width: 100%;
+}
+.o-list li img {
+    height: 70px;
+}
+
+/****
+** FOOTER
+****/
+.o-footer {
+    background: #F9F9F9;
+    color: #595959;
+    float: left;
+    line-height: 1.5;
+    padding: 2rem;
+    width: 100%;
+}
+.o-footer__info {
+    float: left;
+    margin-right: 5rem;
+}
+.o-footer__info:last-child {
+    margin-right: 0;
+}
+.o-footer__info--picture {
+    height: 30px;
+    margin: .5rem .5rem .5rem 0;
+    vertical-align: middle;
+}
+.o-footer__info--title {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.o-footer__info--street, .o-footer__info--phone, .o-footer__info--email {
+    display: block;
+    font-weight: 100;
+}
+.o-footer .o-list li {
+    margin-right: 1.5rem;
+}
+.o-footer .o-list li::last-child {
+    margin-right: 0;
+}
+.o-footer .o-list li img {
+    width: 50px;
+}
