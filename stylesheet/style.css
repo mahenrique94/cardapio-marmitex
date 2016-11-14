@@ -1,4 +1,29 @@
 /****
+** GLOBAL
+****/
+.js-close {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    z-index: 1001;
+}
+.js-link {
+    display: none;
+    background: #FFFFFF;
+    border: 5px solid #DCDCDC;
+    box-shadow: 0 0 0 999999px rgba(0, 0, 0, .5);
+    border-radius: 10px;    
+    height: 350px;
+    left: 50%;
+    margin: -175px 0 0 -250px;
+    position: fixed;
+    top: 50%;
+    width: 500px;
+}
+
+/****
 ** BAND
 ****/
 .o-band {
@@ -32,7 +57,7 @@
     margin-right: .7rem;
     width: 150px;
 }
-.c-menu__title {
+.c-menu__title a {
     color: #B30000;
     display: block;
     letter-spacing: 2px;
